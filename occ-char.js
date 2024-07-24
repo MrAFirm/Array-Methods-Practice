@@ -1,5 +1,5 @@
 let array = ['A', 'L', 'A', 'S', 'K', 'A'];
-array.splice(3, 2, 'B', 'A', 'M'); //call the 3rd index of array, from there delete 2 items, and repalce with the gievn alphabetd in .splice 
+array.splice(3, 2, 'B', 'A', 'M'); //call the 3rd index of array, from there delete 2 items, and repalce with the given character in .splice 
 array.reverse();
 console.log(array); //print everything in array
 console.log(array.join('Then')); //print Then in between each string
